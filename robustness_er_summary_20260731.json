@@ -1,0 +1,535 @@
+{
+  "cells": {
+    "uniform": {
+      "0.0": {
+        "target_edge_probability": 0.0,
+        "mean_realised_density": 0.0,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.01794099409940994,
+          "sd_gap": 0.004383802522095777,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.01794099409940994,
+          "sd_gap": 0.004383802522095777,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.14566856685668567,
+          "sd_gap": 0.016155809076715502,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.01794099409940994,
+          "sd_gap": 0.004383802522095777,
+          "successful_runs": 5
+        }
+      },
+      "0.1": {
+        "target_edge_probability": 0.020000000000000004,
+        "mean_realised_density": 0.019906827309236947,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.01773002684883873,
+          "sd_gap": 0.008288632211244228,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.01773002684883873,
+          "sd_gap": 0.008288632211244228,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.13592867748313292,
+          "sd_gap": 0.00661507603611856,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.01773002684883873,
+          "sd_gap": 0.008288632211244228,
+          "successful_runs": 5
+        }
+      },
+      "0.2": {
+        "target_edge_probability": 0.08000000000000002,
+        "mean_realised_density": 0.0796144578313253,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.023409971621255014,
+          "sd_gap": 0.005660827273863967,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.023409971621255014,
+          "sd_gap": 0.005660827273863967,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.13441634076324904,
+          "sd_gap": 0.012377034616754948,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.023409971621255014,
+          "sd_gap": 0.005660827273863967,
+          "successful_runs": 5
+        }
+      },
+      "0.3": {
+        "target_edge_probability": 0.18,
+        "mean_realised_density": 0.181114859437751,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.022004001360520206,
+          "sd_gap": 0.004481079696772581,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.023984199380322185,
+          "sd_gap": 0.005365156230074058,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.1458667448977791,
+          "sd_gap": 0.020935499818898827,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.022004001360520206,
+          "sd_gap": 0.004481079696772581,
+          "successful_runs": 5
+        }
+      },
+      "0.4": {
+        "target_edge_probability": 0.32000000000000006,
+        "mean_realised_density": 0.32196626506024095,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.02602515308024575,
+          "sd_gap": 0.009001862608086934,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.02800535110004773,
+          "sd_gap": 0.008356534261123993,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.12769719644878796,
+          "sd_gap": 0.016400136110249316,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.02602515308024575,
+          "sd_gap": 0.009001862608086934,
+          "successful_runs": 5
+        }
+      },
+      "0.5": {
+        "target_edge_probability": 0.5,
+        "mean_realised_density": 0.4986923694779117,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.04752066263398563,
+          "sd_gap": 0.004311288737289295,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.04547984630745502,
+          "sd_gap": 0.004642846371818246,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.14446291914824183,
+          "sd_gap": 0.00926739783707257,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.04752066263398563,
+          "sd_gap": 0.004311288737289295,
+          "successful_runs": 5
+        }
+      },
+      "0.6": {
+        "target_edge_probability": 0.6799999999999999,
+        "mean_realised_density": 0.6780208835341366,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.0906395173453997,
+          "sd_gap": 0.016741951000266334,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.09652337858220211,
+          "sd_gap": 0.008954072283541236,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.15155203619909502,
+          "sd_gap": 0.01454402789730695,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.0906395173453997,
+          "sd_gap": 0.016741951000266334,
+          "successful_runs": 5
+        }
+      },
+      "0.7": {
+        "target_edge_probability": 0.82,
+        "mean_realised_density": 0.820433734939759,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.15772574396831524,
+          "sd_gap": 0.027939098471167673,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.15376252169096316,
+          "sd_gap": 0.030673829887614596,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.20904336442480773,
+          "sd_gap": 0.024521368573063904,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.15772574396831524,
+          "sd_gap": 0.027939098471167673,
+          "successful_runs": 5
+        }
+      },
+      "0.8": {
+        "target_edge_probability": 0.92,
+        "mean_realised_density": 0.9193188755020081,
+        "capped_wins_out_of_5": 1,
+        "capped_fallback_rate": 0.8,
+        "FFD-C": {
+          "mean_gap": 0.240414467691113,
+          "sd_gap": 0.03966846345052714,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.2345111927482341,
+          "sd_gap": 0.040734905661976996,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.33299000940818063,
+          "sd_gap": 0.051877004028927816,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.238434269671311,
+          "sd_gap": 0.036234230660216686,
+          "successful_runs": 5
+        }
+      },
+      "0.9": {
+        "target_edge_probability": 0.98,
+        "mean_realised_density": 0.9799004016064257,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.44895173207451367,
+          "sd_gap": 0.03628195225774583,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.44895173207451367,
+          "sd_gap": 0.03628195225774583,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 1.1101731236258603,
+          "sd_gap": 0.13485844322618334,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.44895173207451367,
+          "sd_gap": 0.03628195225774583,
+          "successful_runs": 5
+        }
+      }
+    },
+    "triplet": {
+      "0.0": {
+        "target_edge_probability": 0.0,
+        "mean_realised_density": 0.0,
+        "capped_wins_out_of_5": 5,
+        "capped_fallback_rate": 0,
+        "FFD-C": {
+          "mean_gap": 0.13734939759036144,
+          "sd_gap": 0.0065990669578935585,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.13734939759036144,
+          "sd_gap": 0.0065990669578935585,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.06506024096385542,
+          "sd_gap": 0.006599066957893566,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.06506024096385542,
+          "sd_gap": 0.006599066957893566,
+          "successful_runs": 5
+        }
+      },
+      "0.1": {
+        "target_edge_probability": 0.020000000000000004,
+        "mean_realised_density": 0.021207410286306516,
+        "capped_wins_out_of_5": 5,
+        "capped_fallback_rate": 0,
+        "FFD-C": {
+          "mean_gap": 0.14457831325301204,
+          "sd_gap": 0.008519358809476475,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.14457831325301204,
+          "sd_gap": 0.008519358809476475,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.06746987951807229,
+          "sd_gap": 0.006599066957893566,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.06746987951807229,
+          "sd_gap": 0.006599066957893566,
+          "successful_runs": 5
+        }
+      },
+      "0.2": {
+        "target_edge_probability": 0.08000000000000002,
+        "mean_realised_density": 0.07906464567949216,
+        "capped_wins_out_of_5": 5,
+        "capped_fallback_rate": 0,
+        "FFD-C": {
+          "mean_gap": 0.14216867469879518,
+          "sd_gap": 0.005388115608433221,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.14216867469879518,
+          "sd_gap": 0.005388115608433221,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.0746987951807229,
+          "sd_gap": 0.013198133915787138,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.0746987951807229,
+          "sd_gap": 0.013198133915787138,
+          "successful_runs": 5
+        }
+      },
+      "0.3": {
+        "target_edge_probability": 0.18,
+        "mean_realised_density": 0.1802629874336054,
+        "capped_wins_out_of_5": 5,
+        "capped_fallback_rate": 0,
+        "FFD-C": {
+          "mean_gap": 0.14698795180722893,
+          "sd_gap": 0.010080241283543078,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.14698795180722893,
+          "sd_gap": 0.010080241283543078,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.06265060240963856,
+          "sd_gap": 0.013198133915787133,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.06265060240963856,
+          "sd_gap": 0.013198133915787133,
+          "successful_runs": 5
+        }
+      },
+      "0.4": {
+        "target_edge_probability": 0.32000000000000006,
+        "mean_realised_density": 0.3205078378028242,
+        "capped_wins_out_of_5": 5,
+        "capped_fallback_rate": 0,
+        "FFD-C": {
+          "mean_gap": 0.14698795180722893,
+          "sd_gap": 0.010080241283543078,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.14698795180722893,
+          "sd_gap": 0.010080241283543078,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.06746987951807229,
+          "sd_gap": 0.013737053314447443,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.06746987951807229,
+          "sd_gap": 0.013737053314447443,
+          "successful_runs": 5
+        }
+      },
+      "0.5": {
+        "target_edge_probability": 0.5,
+        "mean_realised_density": 0.5006866174374919,
+        "capped_wins_out_of_5": 5,
+        "capped_fallback_rate": 0,
+        "FFD-C": {
+          "mean_gap": 0.15180722891566265,
+          "sd_gap": 0.006599066957893573,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.15421686746987953,
+          "sd_gap": 0.005388115608433233,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.0891566265060241,
+          "sd_gap": 0.010776231216866461,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.0891566265060241,
+          "sd_gap": 0.010776231216866461,
+          "successful_runs": 5
+        }
+      },
+      "0.6": {
+        "target_edge_probability": 0.6799999999999999,
+        "mean_realised_density": 0.6811698406529343,
+        "capped_wins_out_of_5": 4,
+        "capped_fallback_rate": 0.2,
+        "FFD-C": {
+          "mean_gap": 0.1710843373493976,
+          "sd_gap": 0.010080241283543078,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.17590361445783131,
+          "sd_gap": 0.010776231216866466,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.14216867469879518,
+          "sd_gap": 0.03232869365059937,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.13734939759036144,
+          "sd_gap": 0.023486251433274607,
+          "successful_runs": 5
+        }
+      },
+      "0.7": {
+        "target_edge_probability": 0.82,
+        "mean_realised_density": 0.8195102992615624,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.22650602409638554,
+          "sd_gap": 0.019797200873680698,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.22409638554216868,
+          "sd_gap": 0.010776231216866453,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.36626506024096384,
+          "sd_gap": 0.04050056943125689,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.22650602409638554,
+          "sd_gap": 0.019797200873680698,
+          "successful_runs": 5
+        }
+      },
+      "0.8": {
+        "target_edge_probability": 0.92,
+        "mean_realised_density": 0.920909444228527,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.41686746987951806,
+          "sd_gap": 0.027737022730653815,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.42168674698795183,
+          "sd_gap": 0.030716985021643266,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 0.6939759036144578,
+          "sd_gap": 0.11512172709003618,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.41686746987951806,
+          "sd_gap": 0.027737022730653815,
+          "successful_runs": 5
+        }
+      },
+      "0.9": {
+        "target_edge_probability": 0.98,
+        "mean_realised_density": 0.9798678585308978,
+        "capped_wins_out_of_5": 0,
+        "capped_fallback_rate": 1,
+        "FFD-C": {
+          "mean_gap": 0.42732561075256464,
+          "sd_gap": 0.03777751158931048,
+          "successful_runs": 5
+        },
+        "BFD-C": {
+          "mean_gap": 0.42732561075256464,
+          "sd_gap": 0.03777751158931048,
+          "successful_runs": 5
+        },
+        "MB-WFD-pure": {
+          "mean_gap": 1.1094078902571107,
+          "sd_gap": 0.15055876908591243,
+          "successful_runs": 5
+        },
+        "MB-WFD-capped": {
+          "mean_gap": 0.42732561075256464,
+          "sd_gap": 0.03777751158931048,
+          "successful_runs": 5
+        }
+      }
+    }
+  },
+  "validation": {
+    "rows": 400,
+    "instances": 100,
+    "failed_pure_runs": 0,
+    "bins_below_lb": 0,
+    "capped_above_ffdc": 0
+  }
+}
